@@ -56,6 +56,11 @@ class CfgVehicles {
 
         crew = "I_crew_F";
         class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {};
+            class CargoTurret_02: CargoTurret_02 {};
+            class CargoTurret_03: CargoTurret_03 {};
+            class CargoTurret_04: CargoTurret_04 {};
+            class CargoTurret_05: CargoTurret_05 {};
             class kurs_MG_turret: kurs_MG_turret {
                 gunnerType = "I_crew_F";
             };
@@ -63,6 +68,7 @@ class CfgVehicles {
                 gunnerType = "I_crew_F";
 
                 class Turrets: Turrets {
+                    class CommanderMG: CommanderMG {};
                     class CommanderOptics: CommanderOptics {
                         gunnerType = "I_officer_F";
                     };
