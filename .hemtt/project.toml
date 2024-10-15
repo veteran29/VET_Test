@@ -8,14 +8,3 @@ major = 0
 minor = 1
 patch = 0
 git_hash = 0
-
-[hemtt.launch.spe]
-workshop = [
-    "2369477168", # Advanced Developer Tools
-]
-dlc = [
-    "Spearhead 1944",
-]
-parameters = [
-    "-window", 
-]
